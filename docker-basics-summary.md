@@ -1,4 +1,4 @@
-## Docker
+## Docker Basics
 
 [Docker](https://www.docker.com/) is a tool for packing, shipping, and running applications within **containers**.
 
