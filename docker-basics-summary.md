@@ -83,24 +83,30 @@ $ sudo docker run hello-world
 
 **Creating Dockerfile**
 1)Start in fresh directory
+
 2)Create a file name called Dockerfile and add following lines as we are using Python 3
+
 ```
 FROM python:3
 ```
 3)We want to run a python script "example.py" so add following in Dockerfile
+
 ```
 ADD example.py/
 ```
 4)Suppose we need "numpy" library for our application,we need to install it ,so add the following in Dockerfile
+
 ```
 RUN pip install numpy
 ```
 5)Add this line in Dockerfile to execute script
+
 ```
 CMD["python","./example.py"]
 ```
 
 So your Dockerfile would look like this:
+
 ```
 FROM python:3
 ADD example.py/
@@ -119,4 +125,4 @@ After your image has been built successfully, you can run it as a container. In 
 docker run appname
 ```
 
-You can also find image on Dockerhub
+You can also find images on Dockerhub
