@@ -1,4 +1,5 @@
-##Docker
+## Docker
+
 [Docker](https://www.docker.com/) is a tool for packing, shipping, and running applications within **containers**.
 
 **Docker vs Virtual Machines:**
@@ -6,7 +7,9 @@
 
 
 A Virtual machine is an emulation of real computer that executes programs.VM run on top of hypervisor,which is a host machine.
+
 **Terminology:**
+
 1)Container:Used to isolate an application and dependencies into a package that can run anywhere.After we run docker image ,it creates container.You can use docker api or cli to start,stop,delete the container.
 //add imge
 
@@ -14,14 +17,19 @@ A Virtual machine is an emulation of real computer that executes programs.VM run
 
 3)Dockerfile:It is a simple text file with a set of command.These commands are executed successively to perform actions on the base image to create a new docker image.
 
-####Docker Engine:
+### Docker Engine:
+
 It is layer on which Docker runs and is installed on host machine.It contains:
+
 1)Docker daemon that runs in host computer
+
 2)Docker client that then communicates with docker daemon to execute commands
+
 3)REST API for interacting with docker daemon remotely
 //add image
 
 **Docker Hub**
+
 It is the official repository where you could find all the Docker Images  
 
 **Installation**
@@ -54,24 +62,24 @@ $ sudo apt-get install docker-ce docker-ce-cli containerd.io
 $ sudo docker run hello-world
 ```
 
-[Referred link](https://docs.docker.com/install/linux/docker-ce/ubuntu/)
+[Refer](https://docs.docker.com/install/linux/docker-ce/ubuntu/)
 
 **Commands**
 //add image
 
-docker run – Runs a command in a new container.
-docker start – Starts one or more stopped containers
-docker stop – Stops one or more running containers
-docker build – Builds an image form a Docker file
-docker pull – Pulls an image or a repository from a registry
-docker push – Pushes an image or a repository to a registry
-docker export – Exports a container’s filesystem as a tar archive
-docker exec – Runs a command in a run-time container
-docker search – Searches the Docker Hub for images
-docker attach – Attaches to a running container
-docker commit – Creates a new image from a container’s changes
+* docker run – Runs a command in a new container.
+* docker start – Starts one or more stopped containers
+* docker stop – Stops one or more running containers
+* docker build – Builds an image form a Docker file
+* docker pull – Pulls an image or a repository from a registry
+* docker push – Pushes an image or a repository to a registry
+* docker export – Exports a container’s filesystem as a tar archive
+* docker exec – Runs a command in a run-time container
+* docker search – Searches the Docker Hub for images
+* docker attach – Attaches to a running container
+* docker commit – Creates a new image from a container’s changes
 
-####Creating an Application
+### Creating an Application
 
 **Creating Dockerfile**
 1)Start in fresh directory
