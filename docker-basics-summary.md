@@ -4,7 +4,7 @@
 
 **Docker vs Virtual Machines:**
 //add image
-
+![](extras/traditional-vs-new-gen.png)
 
 A Virtual machine is an emulation of real computer that executes programs.VM run on top of hypervisor,which is a host machine.
 
@@ -16,6 +16,7 @@ A Virtual machine is an emulation of real computer that executes programs.VM run
 2)Image:It is a template with instructions to create a docker container.Image can be pulled from a Docker hub.You can add additional instructions to the base image and create a new and modified docker image.
 
 3)Dockerfile:It is a simple text file with a set of command.These commands are executed successively to perform actions on the base image to create a new docker image.
+![](extras/dfile.png)
 
 ### Docker Engine:
 
@@ -26,7 +27,7 @@ It is layer on which Docker runs and is installed on host machine.It contains:
 2)Docker client that then communicates with docker daemon to execute commands
 
 3)REST API for interacting with docker daemon remotely
-//add image
+![](extras/docker-architecture.png)
 
 **Docker Hub**
 
@@ -65,7 +66,7 @@ $ sudo docker run hello-world
 [Refer](https://docs.docker.com/install/linux/docker-ce/ubuntu/)
 
 **Commands**
-//add image
+![](extras/docker_commands.jpg)
 
 * docker run – Runs a command in a new container.
 * docker start – Starts one or more stopped containers
