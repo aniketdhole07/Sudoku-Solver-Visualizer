@@ -11,7 +11,7 @@ A Virtual machine is an emulation of real computer that executes programs.VM run
 **Terminology:**
 
 1)Container:Used to isolate an application and dependencies into a package that can run anywhere.After we run docker image ,it creates container.You can use docker api or cli to start,stop,delete the container.
-//add imge
+![](extras/docker_cont.png)
 
 2)Image:It is a template with instructions to create a docker container.Image can be pulled from a Docker hub.You can add additional instructions to the base image and create a new and modified docker image.
 
