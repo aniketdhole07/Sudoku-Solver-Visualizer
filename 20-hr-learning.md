@@ -1,4 +1,5 @@
-####Learn Anything in 20Hours
+#### Learn Anything in 20Hours
+
 Josh Kaufman explains how to practice intelligently and [how to learn any new skill in 20 hours.](https://www.youtube.com/watch?v=5MgBikgcWnY)
 
 He gave us 4 tips:
@@ -6,7 +7,8 @@ He gave us 4 tips:
 **1) Deconstruct the Skill:**
 Break the skill into simple subskills.The more you can break apart the skill, the more you’re able to prioritize the subskills.And if you practice the most important things first, you’ll be able to improve your performance in the least amount of time possible.      
 For example, If you are learning programming you break skills into subskills like like Algorithms,Programming Language,Data Structures,Problem Solving,etc.
-![](extras/subskill.png)
+
+![](/extras/subskill.png)
 
 **2)Learn Enough to Self Correct:**
 When you start practicing you want to learn so that you can generate feedback and correct yourself.So learn from good resources and identify and correct mistakes.   
