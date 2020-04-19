@@ -1,15 +1,20 @@
+## Git Basics
+Git is tool used to store and handle changes in files,and to share them to other developers.
+
+![](extras/gitworkflow.jpg)
 ### Git Workflow
 
 your local repository consists of three "trees" maintained by git. the first one is your Working Directory which holds the actual files. the second one is the Index which acts as a staging area and finally the HEAD which points to the last commit you've made.
-![](extras/gitworkflow.png)
+![](extras/trees.png)
 
 ### Commands
-![](extras/)
+
 1)Create a new Repository:
 create a new directory, open it and perform a
 ```
 git init
 ```
+![](extras/repo.jpg)
 2)Checkout a Repository
 create a working copy of a local repository by running the command
 ```
@@ -25,6 +30,8 @@ To actually commit these changes use
 ```
 git commit -m "Commit message"
 ```
+![](extras/commit.jpg)
+![](extras/commit1.jpg)
 Now the file is committed to the HEAD, but not in your remote repository yet.
 
 4)Pushing changes
@@ -54,4 +61,4 @@ and delete the branch again
 ```
 git branch -d feature_x
 ```
-
+![](extras/branches.png)
