@@ -3,12 +3,14 @@
 [Docker](https://www.docker.com/) is a tool for packing, shipping, and running applications within **containers**.
 
 **Docker vs Virtual Machines:**
-//add image
+
 ![](extras/traditional-vs-new-gen.png)
 
 A Virtual machine is an emulation of real computer that executes programs.VM run on top of hypervisor,which is a host machine.
 
-**Terminology:**
+Whereas Docker consist of single host os instead of giving seperate guest os to each application.It loads faster than VMs.
+
+### Terminology:
 
 1)Container:Used to isolate an application and dependencies into a package that can run anywhere.After we run docker image ,it creates container.You can use docker api or cli to start,stop,delete the container.
 ![](extras/docker_cont.png)
