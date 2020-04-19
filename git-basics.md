@@ -1,20 +1,21 @@
-### git workflow
+### Git Workflow
 
 your local repository consists of three "trees" maintained by git. the first one is your Working Directory which holds the actual files. the second one is the Index which acts as a staging area and finally the HEAD which points to the last commit you've made.
 ![](extras/gitworkflow.png)
 
-### commands
-1)create a new repository:
+### Commands
+![](extras/)
+1)Create a new Repository:
 create a new directory, open it and perform a
 ```
 git init
 ```
-2)checkout a repository
+2)Checkout a Repository
 create a working copy of a local repository by running the command
 ```
 git clone /path/to/repository
 ```
-3)add & commit
+3)Add & Commit
 You can propose changes (add it to the Index) using
 ```
 git add <filename>
@@ -26,7 +27,7 @@ git commit -m "Commit message"
 ```
 Now the file is committed to the HEAD, but not in your remote repository yet.
 
-4)pushing changes
+4)Pushing changes
 Your changes are now in the HEAD of your local working copy. To send those changes to your remote repository, execute
 ```
 git push origin master
@@ -39,7 +40,7 @@ git remote add origin <server>
 ```
 Now you are able to push your changes to the selected remote server
 
-5)branching
+5)Branching
 Branches are used to develop features isolated from each other.
 create a new branch named "feature_x" and switch to it using
 ```
